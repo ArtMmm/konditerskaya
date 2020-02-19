@@ -1,0 +1,227 @@
+@font-face {
+  font-family: BeautyMountainsPersonalUse; /* Имя шрифта */
+  src: url(../fonts/BeautyMountainsPersonalUse.woff); /* Путь к файлу со шрифтом */
+ }
+body{
+  
+  animation-name: fadeOut;
+  animation-duration: 2s;
+}
+.conteiner-one{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 920px;
+  background-color: #ebebeb;
+}
+
+.wrapper{
+  width: 1300px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+  margin-top: 15px;
+}
+.logo{
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color:#575757 ; 
+}
+.logo .e{
+  color: #f24da8;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.nav li{
+  margin-right: 66px;
+}
+.link{
+  display: flex;
+}
+.link ul{
+  list-style-type: none;
+}
+.link a {
+  text-decoration: none;
+  color:#575757;
+  font-family: 'Arimo', sans-serif;
+  font-size: 18px;
+}
+.btn{
+  color: #f480ba;
+  border-radius: 10%;
+  background-color:#fff;
+  text-align:center;
+  padding: 10px 20px;  
+}
+.link ul .btn{
+  margin-bottom: 0;
+}
+/*header*/
+.text-image{
+  display: flex;
+  align-items: center;
+}
+.text{
+  width: 459px;
+  height: 456px;
+  z-index: 1;
+  position: absolute;
+}
+.text h1{
+  font-family: 'BeautyMountainsPersonalUse';
+  font-size: 54px;
+  letter-spacing: 7px;
+  color:#3a3a3a;
+  margin-bottom: 52px;
+  margin-top: 50px;
+  line-height: 1.2;
+}
+.text p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:#333232;
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+.text .button-1{
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: #f13c9e;
+  border:none;
+  border-radius: 5%;
+  padding: 20px 35px;
+}
+.owl-carousel{
+  opacity: 0.4;
+  padding-left: 385px;
+  position: relative;
+}
+.owl-carousel .owl-item img {
+  width: 992px;
+}
+/*conteiner2*/
+.conteiner-two{
+  margin-top: 80px;
+}
+
+.conteiner-two .wrapper{
+  display: flex;
+  align-items: center;
+  margin-bottom: 185px;
+}
+.video{
+  width: 485px;
+  height: 516px;
+  border:2px solid #f13c9e;
+}
+.play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:none;
+  position: relative;
+  margin: auto;
+  margin-top: 50%;
+}
+.play-img{
+  position: relative;
+  transform: translateX(5px);
+}
+.play:before{
+  content:'';
+  width: 132px;
+  height: 132px;
+  background: #fff;
+  opacity: 0.5;
+  position: absolute;
+  border-radius: 50%;
+  top: -16px;
+  left: -16px;
+  animation: pulse 0.5s ease-in-out 2s infinite;
+}
+.content{
+  width: 498px;
+  height: 376px;
+  margin-left: 118px;
+}
+.content h2{
+  font-size: 40px;
+  font-family: 'BeautyMountainsPersonalUse';
+  letter-spacing: 7px;
+  color:#3a3a3a;
+  line-height: 1.2;
+  margin-bottom: 36px;
+}
+.content pre{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:#333232;
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+.content .button-2{
+  color:#f13c9e;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color:#fff;
+  border:1px solid#f13c9e;
+  border-radius: 5%;
+  padding: 20px 35px;
+}
+/*conteiner3*/
+.conteiner-three{
+  text-align: center;
+  position:relative;
+}
+.conteiner-three h2{
+  font-size: 40px;
+  font-family: 'BeautyMountainsPersonalUse';
+  letter-spacing: 7px;
+  color:#3a3a3a;
+  line-height: 1.2;
+  margin-bottom: 40px;
+}
+.conteiner-three p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color:#333232;
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+.two{
+  display: flex;
+  justify-content: space-around;
+}
+.three{
+  display: flex;
+  justify-content: space-between;
+}
+.three h3{
+  position: absolute;
+  bottom: 65px;
+  padding-left: 500px;
+  font-family: serif;
+}
+.three p{
+  position: absolute;
+  bottom: -30px;
+  padding-left: 500px;
+}
+  
