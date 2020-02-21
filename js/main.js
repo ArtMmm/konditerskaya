@@ -10,4 +10,9 @@ $(document).ready(function(){
     nav: true,
     dots: false
   });
+  $(".owl-carousel").owlCarousel({
+    items:1,
+    loop: true,
+    nav: true,
+  });
 });
